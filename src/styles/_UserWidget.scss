@@ -1,0 +1,39 @@
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+
+    &__banner {
+        width: 100%;
+       border-top-right-radius: var(--border-radius);
+       border-top-left-radius: var(--border-radius);
+       height: 75px;
+       background-color: gray;
+       background-size: cover;
+       background-position:center center;
+       background-repeat: no-repeat;
+     }
+
+     &__avatar{
+        width: 60px !important;
+        height: 60px !important;  
+        border: 2px solid white;
+        margin: -30px auto 1rem;
+        background-color: #ffffff;
+     }
+
+     &__name{
+        font-size: 1rem;
+        font-weight: bold;
+        color: var(--main);
+     }
+
+     &__title{
+        font-size: 0.85rem;
+        color: var(--main);
+        color: #777777;
+     }
+ }

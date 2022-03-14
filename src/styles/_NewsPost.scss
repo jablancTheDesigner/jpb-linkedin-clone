@@ -1,0 +1,25 @@
+.news-post {
+    display:flex;
+    padding: 10px;
+    border-bottom: 1px solid var(--faint);
+    cursor: pointer;;
+
+    &__decoration{
+        font-size: 12px;
+        margin-right: 5px;
+        display: block;
+    }
+
+    &:hover{
+        background-color: rgba(0,0,0,0.05);
+        
+    }
+
+    &__action{
+        padding: 10px;
+        &:hover{
+            background-color: rgba(0,0,0,0.05);
+            
+        }
+    }
+}

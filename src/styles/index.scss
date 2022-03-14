@@ -1,0 +1,41 @@
+:root {
+  --main: #0a66c2;
+  --gap: 20px;
+  --container: 1170px;
+  --border-radius: 5px;
+  --faint: rgba(0,0,0,0.15);
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+  font-size: 12px;
+}
+
+@import "./App";
+@import "./Card";
+@import "./Feed";
+@import "./Header";
+@import "./HeaderOption";
+@import "./Post";
+@import "./Sidebar";
+@import "./UserWidget";
+@import "./Widgets";
+@import "./Login";
+@import "./AltSignIn";
+@import "./NewsPost";

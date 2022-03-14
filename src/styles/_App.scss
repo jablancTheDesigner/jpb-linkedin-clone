@@ -1,0 +1,30 @@
+#root{
+  height: inherit;
+}
+
+
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  &__body{
+    display: flex;
+    width: 100%;
+    max-width: var(--container);
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: var(--gap);
+    padding: 1rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  &__section{
+    flex:1;
+  }
+}
+
+
+.border-left{
+  border-left: 1px solid var(--faint);
+}
